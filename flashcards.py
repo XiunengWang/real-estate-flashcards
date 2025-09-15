@@ -10,7 +10,8 @@ import pandas as pd
 import streamlit as st
 
 # ---------- CONFIG ----------
-CSV_PATH = "flashcards_mcq_cleaned_all_v4.csv"  # <— point at your MCQ CSV
+# CSV_PATH = "flashcards_mcq_cleaned_all_v4.csv"  # <— point at your MCQ CSV
+CSV_PATH = "OneThousand_QandA.csv"  # <— point at your MCQ CSV
 PROGRESS_PATH = "progress_flashcards.json"
 
 QUESTION_COL_CANDIDATES = [
